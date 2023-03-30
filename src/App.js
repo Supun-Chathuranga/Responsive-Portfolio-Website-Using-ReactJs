@@ -3,6 +3,7 @@ import './App.css'
 import Mintro from "./Components/Mintro/Mintro";
 import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
+import Work from "./Components/Work/Work";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Mintro/>
      <Services/>
      <Experience/>
+     <Work/>
   
     </div>
   );
