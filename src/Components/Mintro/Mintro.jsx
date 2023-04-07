@@ -10,13 +10,17 @@ import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import Glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
 
 const Mintro = () => {
+  const theme = useContext(themeContext)
+  const darkMode = theme.state.darkMode
   return (
     <div className="mintro">
         <div className="i-left">
         <div className="i-name">
-            <span>Hi ! I Am</span>
+            <span style={{color:darkMode? 'white': ''}}>Hi ! I Am</span>
             <span>Supun Chathuranga</span>
             <span>Front End Developer full stack python developer</span>
         </div>

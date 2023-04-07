@@ -5,12 +5,16 @@ import Upwork from '../../img/Upwork.png'
 import Facebook from '../../img/Facebook.png'
 import Fiverr from '../../img/fiverr.png'
 import Shopify from '../../img/Shopify.png'
+import { themeContext } from '../../Context'
+import { useContext } from 'react'
 
 const Work = () => {
+    const theme = useContext(themeContext)
+    const darkMode = theme.state.darkMode
   return (
     <div className="works">
         <div className="awesome">
-        <span>Work for All these</span>
+        <span style={{color:darkMode? 'white': ''}}>Work for All these</span>
         <span>Brand & Clients</span>
         <span>Lorem ipsum dolor sit amet consectetur aascjjlclcnjcn slxnlnjasnxjasjlxnslsjxnlxans
             <br/>adipisicing elit. Ipsa, cupiditate.
@@ -39,6 +43,8 @@ const Work = () => {
                     <img src={Facebook} alt="" />
                 </div>
             </div>
+        <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle yellowCircle"></div>
         </div>
     </div>
   )
