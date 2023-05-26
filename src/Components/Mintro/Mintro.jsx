@@ -5,7 +5,7 @@ import LinkedIN from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
-import Boy from '../../img/boy.png'
+import Boy from '../../img/boy.5ca4b670a32b71681d2c.png'
 import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import Glassesimoji from '../../img/glassesimoji.png'
@@ -22,7 +22,7 @@ const Mintro = () => {
         <div className="i-name">
             <span style={{color:darkMode? 'white': ''}}>Hi ! I Am</span>
             <span>Supun Chathuranga</span>
-            <span>Front End Developer full stack python developer</span>
+            <span>Full Stack Developer</span>
         </div>
         <button className="button i-button">Hire Me</button>
         <div className="i-icons">

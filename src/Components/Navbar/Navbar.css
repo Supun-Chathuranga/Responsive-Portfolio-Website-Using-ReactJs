@@ -42,3 +42,6 @@
 .n-button{
     flex: 2;
 }
+.n-right button a{
+    text-decoration: none;
+}

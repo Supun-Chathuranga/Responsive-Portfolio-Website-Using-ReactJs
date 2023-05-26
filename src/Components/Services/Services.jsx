@@ -24,22 +24,22 @@ const Services = () => {
             <div style={{left: '14rem'}}>
                 <Card
                 emoji = {Heartimoji}
-                heading ={'Design'}
-                detail ={"Figma,Adobe XD,Sketch,Photoshop"}
+                heading ={'Front End Design'}
+                detail ={"HTML,CSS,Javascript,React"}
                 />
             </div>
             <div style={{top: '12rem',left:'-4rem'}}>
                 <Card
                 emoji = {Glasses}
-                heading ={'Develper'}
-                detail ={"HTML,CSS,Javascript,React"}
+                heading ={'Back End Develop'}
+                detail ={"PHP,Python,Wordpress"}
                 />
             </div>
             <div style={{top: '19rem',left:'12rem'}}>
                 <Card
                 emoji = {Humble}
-                heading ={'UI/UX'}
-                detail ={"Figma,Adobe XD,Sketch,Photoshop"}
+                heading ={'ML Model Training'}
+                detail ={"Colab,Kaggle"}
                 />
             </div>
             <div className="blur s-blur" style={{background:"var(--purple)"}}></div>
