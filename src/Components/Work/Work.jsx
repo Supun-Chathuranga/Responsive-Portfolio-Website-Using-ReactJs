@@ -1,10 +1,10 @@
 import React from 'react'
 import './Work.css'
-import Amazon from '../../img/amazon.png'
-import Upwork from '../../img/Upwork.png'
-import Facebook from '../../img/Facebook.png'
-import Fiverr from '../../img/fiverr.png'
-import Shopify from '../../img/Shopify.png'
+import Amazon from '../../img/node.png'
+import Upwork from '../../img/mngg.png'
+import Facebook from '../../img/redx.png'
+import Fiverr from '../../img/exr.png'
+import Shopify from '../../img/react.png'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 
@@ -15,14 +15,16 @@ const Work = () => {
     <div className="works">
         <div className="awesome">
         <span style={{color:darkMode? 'white': ''}}>Work for All these</span>
-        <span>Brand & Clients</span>
-        <span>Lorem ipsum dolor sit amet consectetur aascjjlclcnjcn slxnlnjasnxjasjlxnslsjxnlxans
-            <br/>adipisicing elit. Ipsa, cupiditate.
-            <br/>adipisicing elit. Ipsa, cupiditate.
-            <br/>adipisicing elit. Ipsa, cupiditate.<br/>
+        <span>Categories</span>
+        <span>I am dedicated to Transforming your ideas into beautifully crafted digital products.
+            <br/>Responsive Web Development
+            <br/>Frontend Development
+            <br/>Backend Development
+            <br/>Database Design and Optimization
+            <br/>
 
         </span>
-        <button className="button s-button">Download CV</button>
+        <a href='https://drive.google.com/file/d/1abTeS7KmpmSYjT7ST8vkqLDUoUrHjU10/view?usp=share_link' target='_blank'><button className="button s-button">Download CV</button></a>
         <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
         </div>
         <div className="w-right">

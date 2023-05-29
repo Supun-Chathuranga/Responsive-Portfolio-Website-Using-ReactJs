@@ -26,9 +26,9 @@ const Mintro = () => {
         </div>
         <button className="button i-button">Hire Me</button>
         <div className="i-icons">
-            <img src={Github} alt="" srcset="" />
-            <img src={LinkedIN} alt="" srcset="" />
-            <img src={Instagram} alt="" srcset="" />
+            <a href='https://github.com/Supun-Chathuranga' target='_blank'><img src={Github} alt="" srcset="" /></a>
+            <a href='https://www.linkedin.com/in/supun-chathuranga-1451b4267/ ' target='_blank'><img src={LinkedIN} alt="" srcset="" /></a>
+            <a href=''><img src={Instagram} alt="" srcset="" /></a>
         </div>
         </div>
         <div className="i-right">
@@ -40,7 +40,7 @@ const Mintro = () => {
                 <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
             </div>
             <div style={{top:'18.2rem', left:'1.5rem'}}>
-                <FloatingDiv image={thumbup} txt1='Best' txt2='Design'/>
+                <FloatingDiv image={thumbup} txt1='ML Model' txt2='Trainer'/>
             </div>
             <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
             <div className="blur" 

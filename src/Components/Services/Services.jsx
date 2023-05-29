@@ -14,8 +14,10 @@ const Services = () => {
         <div className="awesome">
         <span style={{color:darkMode? 'white': ''}}>My Awesome</span>
         <span>Services</span>
-        <span>Lorem ipsum dolor sit amet consectetur aascjjlclcnjcn slxnlnjasnxjasjlxnslsjxnlxans
-            <br/>adipisicing elit. Ipsa, cupiditate.
+        <span> I offer top-notch fullstack development solutions tailored to meet your digital needs. As a skilled,
+            <br/> and passionate fullstack developer,
+            <br/>With a deep understanding of both front-end and back-end technologies
+            <br/>
         </span>
         <button className="button s-button">Download CV</button>
         <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>

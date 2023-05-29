@@ -3,6 +3,7 @@
     display: flex;
     height: 90vh;
     margin-top: 4rem;
+    
 }
 .w-right{
     position: relative;
@@ -27,11 +28,11 @@
 }
 .w-mainCircle>:nth-child(2){
     top: 6rem;
-    left:5rem;
+    left:6rem;
 }
 .w-mainCircle>:nth-child(3){
     top: 6rem;
-    left:-3rem;
+    left:-2rem;
 }
 .w-mainCircle>:nth-child(5){
     top:15rem;
@@ -39,7 +40,7 @@
 }
 .w-mainCircle>:nth-child(4){
     top: 6rem;
-    left:13rem;
+    left:14rem;
 }
 .w-subCircle{
     position: absolute;
@@ -56,6 +57,7 @@
 }
 .w-subCircle> img{
     transform: scale(0.6);
+    
 }
 .w-backCircle{
     position: absolute;
